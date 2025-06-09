@@ -5,7 +5,7 @@ A lightweight Python project that extracts key information from the **front and 
 ---
 
 ## 🔍 What it does
-
+<pre>
 - Uses image-to-text OCR with `pytesseract`
 - Parses:
   - ✅ Name
@@ -16,7 +16,7 @@ A lightweight Python project that extracts key information from the **front and 
   - ✅ Address
   - ✅ Pincode
 - Accepts images through an API or local file path
-
+</pre>
 ---
 
 ## 📁 Project Structure
