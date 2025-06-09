@@ -46,7 +46,7 @@ Initially, install all the libraries using the requirements.txt file. If you don
 1. Using **Flask Rest API**
   a. Here, you go to postman or any suitable provider and then give an appropriate **POST REQUEST** for **Front Image** and **Back Image**
      # POST http://localhost:5000/
-     # To run the code for this, just type "python test.py"
+     # To run the code for this, just type ``` "python test.py" ```
    
   b. Sample response is as: 
   ```
@@ -96,14 +96,14 @@ Initially, install all the libraries using the requirements.txt file. If you don
      }
    ```
    Back file:
-  ```
+   ```
      {
     "Parent": "Amit Kumar Tandon",
     "Relation": "S/O",
     "Address": "Merlin Greens, Flat A 1920, Kriparampur, Naskar Para, Chandi, Bishnupur, South 24 Parganas, West Bengal",
     "Pincode": "743503"
     }
-  ```
+   ```
 ---
 
 # Summary 
