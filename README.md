@@ -20,13 +20,14 @@ A lightweight Python project that extracts key information from the **front and 
 ---
 
 ## 📁 Project Structure
+<pre>```
 ├── aadhar_ocr.py # Core OCR logic (modularized functions)
 ├── app.py # Flask API version using uploaded images
 ├── test.py # Flask-RESTful variant (same logic, different structure)
 ├── file1.py # Initial version with local image path + file output
 ├── extracted_aadhar_data.json # Sample output from file1.py
 ├── extracted_back_data.json # Sample output from file1.py
-
+```</pre>
 ---
 
 ## 🛠️ Requirements
