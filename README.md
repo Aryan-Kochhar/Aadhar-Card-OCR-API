@@ -49,6 +49,7 @@ Initially, install all the libraries using the requirements.txt file. If you don
      # To run the code for this, just type "python test.py"
    
   b. Sample response is as: 
+  ```
   {
   "Name": "Sid Malhorta",
   "DOB": "28-05-2000",
@@ -59,11 +60,13 @@ Initially, install all the libraries using the requirements.txt file. If you don
   "Address": "Merlin Greens, Flat A 1920, Kriparampur, Naskar Para, Chandi, Bishnupur, South 24 Parganas, West Bengal",
   "Pincode": "743503"
   }
+```
 
 2. Using **Flask API**
      # Do the above and just type "python app.py"
    
   a. Sample response is as: 
+  ```
   {
   "Name": "Sid Malhorta",
   "DOB": "28-05-2000",
@@ -74,7 +77,8 @@ Initially, install all the libraries using the requirements.txt file. If you don
   "Address": "Merlin Greens, Flat A 1920, Kriparampur, Naskar Para, Chandi, Bishnupur, South 24 Parganas, West Bengal",
   "Pincode": "743503"
   }
-     
+```
+
 3. For running locally,
    a. Go to the file **file1.py**
    b. Give paths for **Front Image** and **Back Image**
@@ -82,22 +86,24 @@ Initially, install all the libraries using the requirements.txt file. If you don
    c. The extracted data will be stored in the form of JSON files in your system.
      b. Sample response is as:
    
-   Front file: 
+   Front file:
+   ```
      {
       "Name": "Sid Malhorta",
       "DOB": "28-05-2000",
       "Gender": "Female",
       "Aadhaar": "3425 0653 1151"
      }
-
+   ```
    Back file:
+  ```
      {
     "Parent": "Amit Kumar Tandon",
     "Relation": "S/O",
     "Address": "Merlin Greens, Flat A 1920, Kriparampur, Naskar Para, Chandi, Bishnupur, South 24 Parganas, West Bengal",
     "Pincode": "743503"
     }
-
+  ```
 ---
 
 # Summary 
