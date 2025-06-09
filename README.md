@@ -20,14 +20,14 @@ A lightweight Python project that extracts key information from the **front and 
 ---
 
 ## 📁 Project Structure
-<pre>```
+<pre>
 ├── aadhar_ocr.py # Core OCR logic (modularized functions)
 ├── app.py # Flask API version using uploaded images
 ├── test.py # Flask-RESTful variant (same logic, different structure)
 ├── file1.py # Initial version with local image path + file output
 ├── extracted_aadhar_data.json # Sample output from file1.py
 ├── extracted_back_data.json # Sample output from file1.py
-```</pre>
+</pre>
 ---
 
 ## 🛠️ Requirements
@@ -50,7 +50,7 @@ Initially, install all the libraries using the requirements.txt file. If you don
      # To run the code for this, just type ``` "python test.py" ```
    
   b. Sample response is as: 
-  ```
+  <pre>
   {
   "Name": "Sid Malhorta",
   "DOB": "28-05-2000",
@@ -61,13 +61,13 @@ Initially, install all the libraries using the requirements.txt file. If you don
   "Address": "Merlin Greens, Flat A 1920, Kriparampur, Naskar Para, Chandi, Bishnupur, South 24 Parganas, West Bengal",
   "Pincode": "743503"
   }
-```
+  </pre>
 
 2. Using **Flask API**
      # Do the above and just type "python app.py"
    
   a. Sample response is as: 
-  ```
+  <pre>
   {
   "Name": "Sid Malhorta",
   "DOB": "28-05-2000",
@@ -78,7 +78,7 @@ Initially, install all the libraries using the requirements.txt file. If you don
   "Address": "Merlin Greens, Flat A 1920, Kriparampur, Naskar Para, Chandi, Bishnupur, South 24 Parganas, West Bengal",
   "Pincode": "743503"
   }
-```
+  </pre>
 
 3. For running locally,
    a. Go to the file **file1.py**
@@ -88,23 +88,23 @@ Initially, install all the libraries using the requirements.txt file. If you don
      b. Sample response is as:
    
    Front file:
-   ```
+   <pre>
      {
       "Name": "Sid Malhorta",
       "DOB": "28-05-2000",
       "Gender": "Female",
       "Aadhaar": "3425 0653 1151"
      }
-   ```
+   </pre>
    Back file:
-   ```
+   <pre>
      {
     "Parent": "Amit Kumar Tandon",
     "Relation": "S/O",
     "Address": "Merlin Greens, Flat A 1920, Kriparampur, Naskar Para, Chandi, Bishnupur, South 24 Parganas, West Bengal",
     "Pincode": "743503"
     }
-   ```
+   </pre>
 ---
 
 # Summary 
