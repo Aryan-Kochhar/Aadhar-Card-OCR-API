@@ -42,9 +42,10 @@ A lightweight Python project that extracts key information from the **front and 
 
 Initially, install all the libraries using the requirements.txt file. If you don't know how to, just write this command.
 
-# pip install -r requirements.txt
+## pip install -r requirements.txt
 
-1. Using **Flask Rest API**
+# 1. Using **Flask Rest API**
+
   a. Here, you go to postman or any suitable provider and then give an appropriate **POST REQUEST** for **Front Image** and **Back Image**
      # POST http://localhost:5000/
      # To run the code for this, just type ``` "python test.py" ```
@@ -63,8 +64,9 @@ Initially, install all the libraries using the requirements.txt file. If you don
   }
   </pre>
 
-2. Using **Flask API**
-     # Do the above and just type "python app.py"
+# 2. Using **Flask API**
+     
+  ## Do the above and just type "python app.py"
    
   a. Sample response is as: 
   <pre>
@@ -80,7 +82,8 @@ Initially, install all the libraries using the requirements.txt file. If you don
   }
   </pre>
 
-3. For running locally,
+# 3. For running locally
+
    a. Go to the file **file1.py**
    b. Give paths for **Front Image** and **Back Image**
     # Now just type "python file1.py"
